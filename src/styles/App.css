@@ -1,0 +1,25 @@
+body {
+    background-color: #fcfafa;
+    color: rgb(13, 13, 13);
+    padding: 40px;
+    font-family: Sans-Serif;
+}
+
+#root {
+    margin: 100px;
+}
+
+h1 {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(calc(-100%));
+    }
+}
